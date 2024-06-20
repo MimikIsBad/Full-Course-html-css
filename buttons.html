@@ -3,12 +3,18 @@
         background-color: rgb(0, 0, 0);
         color: white;
         border: none;
-        height: 35px;
-        width: 106px;
+        padding-left: 8px;
         border-radius: 20px;
         cursor: pointer;
         margin-right: 8px;
+        padding-right: 20px;
+        padding-left: 20px;
+        padding-top: 12px;
+        padding-bottom: 12px;
         transition: opacity .2s;
+        font-weight: bold;
+        font-family: "Roboto", "Arial", sans-serif;
+        vertical-align: top;
     }
 
     .subscribe-button:hover {
@@ -22,8 +28,10 @@
     .join-button {
         background-color: white;
         border-color: rgb(0, 140, 205);
-        height: 35px;
-        width: 65px;
+        padding-right: 13px;
+        padding-top: 9px;
+        padding-left: 13px;
+        padding-bottom: 9px;
         border-radius: 2px;
         border-style: solid;
         border-width: 1.3px;
@@ -31,6 +39,7 @@
         cursor: pointer;
         transition: background-color 0.15s,
         color 0.15s;
+        vertical-align: top;
     }
 
     .join-button:hover {
@@ -45,19 +54,24 @@
     .tweet-button {
         background-color: rgb(0, 145, 255);
         color: white;
-        height: 35px;
-        width: 74px;
+        padding-left: 16px;
+        padding-right: 16px;
+        height: 36px;
         border: none;
         border-radius: 20px;
         cursor: pointer;
         font-weight: bold;
+        font-size: 15px;
         margin-left: 8px;
         margin-right: 8px;
-        transition: box-shadow 0.2s;
+        transition: box-shadow 0.2s,
+        opacity 0.2s;
+        vertical-align: top;
     }
 
     .tweet-button:hover {
         box-shadow: 5px 5px 10px rgba(0, 0, 0, .3);
+        opacity: 0.7;
     }
 
     .signup-button {
@@ -94,7 +108,7 @@
 </button>
 
 <button class="tweet-button">
-    Tweet
+    Post
 </button>
 
 <button class="signup-button">
